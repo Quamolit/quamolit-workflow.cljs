@@ -6,6 +6,8 @@ Quamolit: a tiny animation library
 
 Workflow for [Quamolit](https://github.com/Quamolit/quamolit).
 
+Demo http://quamolit.org/workflow/
+
 ### License
 
 MIT
