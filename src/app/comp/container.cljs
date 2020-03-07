@@ -1,5 +1,5 @@
 
-(ns workflow.comp.container
+(ns app.comp.container
   (:require [hsl.core :refer [hsl]] [quamolit.alias :refer [create-comp group text rect]]))
 
 (defn render [timestamp store]
@@ -7,7 +7,7 @@
     (comment .log js/console state)
     (group
      {:style {}}
-     (text {:style {:text-align "center", :size 20, :fill-style (hsl 0 0 0), :text "DEMO"}})
-     (rect {:style {:y 40, :w 100, :fill-style (hsl 240 80 80), :x 100, :height 60}}))))
+     (text {:style {:text "DEMO", :fill-style (hsl 0 0 0), :text-align "center", :size 20}})
+     (rect {:style {:x 100, :y 40, :w 100, :height 60, :fill-style (hsl 240 80 80)}}))))
 
 (def comp-container (create-comp :container render))

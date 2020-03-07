@@ -1,3 +1,11 @@
 
-target/
-src/*.json
+/target/
+/dist
+/node_modules
+.cpcache/
+.shadow-cljs/
+
+.nrepl-port
+
+.DS_Store
+pom.xml
